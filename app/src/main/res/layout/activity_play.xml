@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.game2011.inderdeep.khanna.xv_puzzle.PlayActivity">
+
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:columnCount="1"
+        android:rowCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.059">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/box0"
+                android:layout_width="0dp"
+                android:tag="0"
+                android:onClick="onBoxClicked"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box0" />
+
+            <Button
+                android:id="@+id/box1"
+                android:tag="1"
+                android:onClick="onBoxClicked"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box1" />
+
+            <Button
+                android:id="@+id/box2"
+                android:tag="2"
+                android:onClick="onBoxClicked"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box2" />
+
+            <Button
+                android:id="@+id/box3"
+                android:tag="3"
+                android:onClick="onBoxClicked"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/box4"
+                android:tag="4"
+                android:onClick="onBoxClicked"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box4" />
+
+            <Button
+                android:id="@+id/box5"
+                android:layout_width="0dp"
+                android:tag="5"
+                android:onClick="onBoxClicked"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box5" />
+
+            <Button
+                android:id="@+id/box6"
+                android:layout_width="0dp"
+                android:tag="6"
+                android:onClick="onBoxClicked"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box6" />
+
+            <Button
+                android:id="@+id/box7"
+                android:layout_width="0dp"
+                android:tag="7"
+                android:onClick="onBoxClicked"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box7" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/box8"
+                android:layout_width="0dp"
+                android:tag="8"
+                android:onClick="onBoxClicked"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box8" />
+
+            <Button
+                android:id="@+id/box9"
+                android:layout_width="0dp"
+                android:tag="9"
+                android:onClick="onBoxClicked"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box9" />
+
+            <Button
+                android:id="@+id/box10"
+                android:layout_width="0dp"
+                android:tag="10"
+                android:onClick="onBoxClicked"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box10" />
+
+            <Button
+                android:id="@+id/box11"
+                android:layout_width="0dp"
+                android:tag="11"
+                android:onClick="onBoxClicked"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box11" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/box12"
+                android:layout_width="0dp"
+                android:tag="12"
+                android:onClick="onBoxClicked"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box12" />
+
+            <Button
+                android:id="@+id/box13"
+                android:layout_width="0dp"
+                android:tag="13"
+                android:onClick="onBoxClicked"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box13" />
+
+            <Button
+                android:id="@+id/box14"
+                android:layout_width="0dp"
+                android:tag="14"
+                android:onClick="onBoxClicked"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box14" />
+
+            <Button
+                android:id="@+id/box15"
+                android:layout_width="0dp"
+                android:tag="15"
+                android:onClick="onBoxClicked"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box15" />
+
+        </LinearLayout>
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:fontFamily="@font/beyno"
+        android:text="Moves : "
+        android:gravity="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/gridLayout"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout"
+        app:layout_constraintVertical_bias="0.244" />
+
+    <TextView
+        android:id="@+id/movesTextView"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="8dp"
+        android:gravity="start"
+        android:text="03"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout"
+        app:layout_constraintVertical_bias="0.192" />
+
+
+</android.support.constraint.ConstraintLayout>

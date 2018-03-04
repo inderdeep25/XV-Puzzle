@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.game2011.inderdeep.khanna.xv_puzzle.InfoActivity">
+
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:columnCount="1"
+        android:rowCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.059">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:tag="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box1" />
+
+            <Button
+                android:tag="2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box2" />
+
+            <Button
+                android:tag="3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box3" />
+
+            <Button
+                android:tag="4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:layout_width="0dp"
+                android:tag="5"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box5" />
+
+            <Button
+                android:layout_width="0dp"
+                android:tag="6"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box6" />
+
+            <Button
+                android:layout_width="0dp"
+                android:tag="7"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box7" />
+
+            <Button
+                android:layout_width="0dp"
+                android:tag="8"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box8" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:tag="9"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box9" />
+
+            <Button
+                android:layout_width="0dp"
+                android:tag="10"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box10" />
+
+            <Button
+                android:layout_width="0dp"
+                android:tag="11"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box11" />
+
+            <Button
+                android:layout_width="0dp"
+                android:tag="12"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box12" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:tag="13"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box13" />
+
+            <Button
+                android:layout_width="0dp"
+                android:tag="14"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box14" />
+
+            <Button
+                android:layout_width="0dp"
+                android:tag="15"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box15" />
+
+            <Button
+                android:layout_width="0dp"
+                android:tag="0"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/box0" />
+
+        </LinearLayout>
+
+    </GridLayout>
+
+    <TextView
+        android:layout_width="357dp"
+        android:layout_height="114dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:gravity="top|fill"
+        android:text="Objective : Create above shown pattern by moving the empty block in top, left, right and bottom directions in 50 moves!"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+
+</android.support.constraint.ConstraintLayout>
