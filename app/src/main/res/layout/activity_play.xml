@@ -226,7 +226,7 @@
         android:layout_marginLeft="12dp"
         android:layout_marginTop="8dp"
         android:gravity="start"
-        android:text="03"
+        android:text="0"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView"
